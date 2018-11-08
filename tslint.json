@@ -12,7 +12,8 @@
     "no-param-reassign": false,
     "no-consecutive-blank-lines": true,
     "max-line-length": [ true, 120 ],
-     "variable-name": [true, "allow-leading-underscore"]
+     "variable-name": [true, "allow-leading-underscore"],
+     "prefer-template": false
   },
   "rulesDirectory": [
     "node_modules/tslint-eslint-rules/dist/rules"
