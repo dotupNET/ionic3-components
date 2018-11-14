@@ -1,0 +1,16 @@
+<ion-header>
+  <filter-toolbar-header title="Logfile" [searchString]="searchString" (onSearchStringChanged)="onSearchStringChanged($event)"></filter-toolbar-header>
+</ion-header>
+
+<ion-content>
+  <ion-list no-lines>
+
+    <ion-item *ngFor="let model of listItems | filterLogEntry: searchString" [attr.itemType]="model.LogLevel">
+      <h2>{{model.context}}:{{model.memberName}}</h2>
+      <h3>{{model.message}}</h3>
+      <p>{{model.timeStamp}}</p>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>

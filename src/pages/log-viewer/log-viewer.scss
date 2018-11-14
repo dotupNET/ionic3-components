@@ -1,0 +1,16 @@
+$levels: (
+  Debug: #aaaaaa,
+  Info: #5598e4,
+  Warn: #ffa806,
+  Error: #e92323,
+  Fatal: #ff0000
+);
+
+page-log-viewer {
+  @each $itemType, $value in map-remove($levels) {
+    ion-item[itemType=#{$itemType}] ion-label {
+      border-left: 3px solid $value;
+      padding-left: 10px;
+    }
+  }
+}

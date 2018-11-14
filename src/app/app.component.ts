@@ -59,6 +59,7 @@ export class MyApp {
       { title: 'Timeline', component: 'TimelinePage', active: false, icon: 'calendar' },
       { title: 'Slides', component: 'SlidesPage', active: false, icon: 'contact' },
       { title: 'Theming', component: 'ThemingPage', active: false, icon: 'power' },
+      { title: 'Logfile', component: 'LogViewerPage', active: false, icon: 'book' },
     ];
 
     this.activePage.subscribe((selectedPage: any) => {

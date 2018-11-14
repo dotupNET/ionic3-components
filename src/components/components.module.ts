@@ -1,3 +1,4 @@
+import { FilterToolbarHeaderComponent } from './filter-toolbar-header/filter-toolbar-header';
 import { TimelineComponentModule } from './timeline/timeline.module';
 import { NgModule } from '@angular/core';
 import { IonicModule } from 'ionic-angular';
@@ -14,6 +15,7 @@ export const components = [
   ExpandableHeader,
   FlashCardComponent,
   AccordionListComponent,
+  FilterToolbarHeaderComponent
 ];
 
 @NgModule({

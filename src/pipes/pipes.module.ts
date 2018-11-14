@@ -1,3 +1,4 @@
+import { FilterLogEntryPipe } from './filter-log-entry';
 import { NgModule } from '@angular/core';
 
 import { CapitalizePipe } from './capitalize.pipe';
@@ -12,6 +13,7 @@ export const pipes = [
   OrderByPipe,
   ShortenStringPipe,
   TemperaturePipe,
+  FilterLogEntryPipe
 ];
 
 @NgModule({

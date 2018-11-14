@@ -1,3 +1,4 @@
+import { ObservableLogWriter } from './../pages/log-viewer/ObservableLogWriter';
 import { SharedModule } from './shared.module';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -19,6 +20,10 @@ import { MODULES, PROVIDERS } from './app.imports';
   entryComponents: [
     MyApp,
   ],
-  providers: [PROVIDERS, { provide: ErrorHandler, useClass: IonicErrorHandler }]
+  providers: [
+    PROVIDERS, 
+    { provide: ErrorHandler, useClass: IonicErrorHandler },
+    ObservableLogWriter
+  ]
 })
 export class AppModule { }

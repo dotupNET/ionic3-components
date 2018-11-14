@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.braga.advancedionic2components.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Advanced Ionic2 Components</name>
+<widget id="net.dotup.advancedionic3components.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Advanced Ionic3 Components</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
     <content src="index.html" />
@@ -72,5 +72,5 @@
         <variable name="CAMERA_USAGE_DESCRIPTION" value="To scan barcodes" />
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
     </plugin>
-    <engine name="android" spec="^7.1.1" />
+    <engine name="android" spec="7.1.2" />
 </widget>
